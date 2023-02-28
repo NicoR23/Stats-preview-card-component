@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style></style>
+  </head>
+  <body>
+    <main class="container">
+      <picture class="container__img">
+        <source
+          srcset="images/image-header-desktop.jpg"
+          media="(min-width: 790px)"
+        />
+        <img src="images/image-header-mobile.jpg" alt="3 people in a company meeting" />
+      </picture>
+      <section class="section">
+        <h1 class="container__title">
+          Get <span class="container__title--modifi">insights</span> that help
+          your business grow.
+        </h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="container__paragraph">
+          <p class="container__title container__title--respon">
+            10k+<span class="container__paragraph--modifi">companies</span>
+          </p>
+          <p class="container__title container__title--respon">
+            314<span class="container__paragraph--modifi">templates</span>
+          </p>
+          <p class="container__title container__title--respon">
+            12m+<span class="container__paragraph--modifi">queries</span>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Nicolas</a>.
+    </footer>
+  </body>
+</html>
